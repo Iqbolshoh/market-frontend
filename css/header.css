@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #f5f5f7;
+  /* Apple fon rangi - juda engil kulrang */
+  --text: #1d1d1f;
+  /* Apple matn rangi - deyarli qora */
+  --primary: #0071e3;
+  /* Apple ko‘k - CTA tugmalar (Buy, Learn more) */
+  --secondary: #6e6e73;
+  /* Apple ikkilamchi matn rangi - kulroq */
+}
+
+body {
+  background-color: var(--bg);
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+header h1 {
+  color: var(--text);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  margin-right: 70px;
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+header a:hover {
+  color: #084b8d;
+}

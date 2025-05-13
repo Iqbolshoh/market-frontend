@@ -1,0 +1,23 @@
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+ul li {
+    display: block;
+    line-height: 2.5;
+}
+
+footer a {
+
+    margin-right: 70px;
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+footer a:hover {
+    color: #084b8d;
+}

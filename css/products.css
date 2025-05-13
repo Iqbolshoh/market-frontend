@@ -1,0 +1,39 @@
+.products {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.product {
+    width: 300px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product .title {
+    color: var(--text);
+}
+
+.product .text {
+    color: var(--secondary);
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.product .btn {
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    padding: 10px;
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.product .btn:hover {
+    background-color: var(--primary);
+    color: white;
+}
